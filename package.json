@@ -30,6 +30,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start-server": "pm2 start npm --name xiuu-client -- start && pm2 startup && pm2 save",
+    "restart-server": "pm2 restart xiuu-client && pm2 save",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
