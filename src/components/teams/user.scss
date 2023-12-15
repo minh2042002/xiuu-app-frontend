@@ -1,0 +1,89 @@
+.help-link {
+    color: blue;
+}
+.user-container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    font-size: 14px;
+}
+
+.teams-row {
+    color: #6B778C !important;
+}
+.teams-col {
+    color: #0052CC !important;
+    font-size: 30px !important;
+}
+.help-info {
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navigate-bar {
+    color: #6B778C;
+}
+
+.teams-info {
+    padding-bottom: 25px;
+}
+.search-box {
+    display: flex;
+    width: 32%;
+    border-radius: 3px;
+    border: 2px solid #DFE1E6;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.search-box input {
+    border: none;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    &:focus{
+        outline: none;
+    }
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.search-filter {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.filter-box {
+    padding: 5px;
+    border-radius: 3px;
+    background: rgba(9, 30, 66, 0.04);
+    display: flex;
+    color: #42526E;
+    font-weight: 500;
+    cursor: pointer;
+}
+.filter-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.table-header {
+    color: #5E6C84;
+    font-size: 11px;
+    font-weight: 600;
+}
+.table-username {
+    width: 60%;
+}
+
+.table-active {
+    width: 20%;
+}
+
+.table-status {
+    width: 15%;
+}

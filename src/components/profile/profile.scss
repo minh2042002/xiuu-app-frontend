@@ -1,0 +1,31 @@
+.body {
+  display: flex;
+  .info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 100px;
+    gap: 5px;
+    .avatar {
+      padding-left: 45px;
+      padding-top: 25px;
+      width: auto;
+      height: auto;
+    }
+  }
+  .product {
+    flex: 4;
+    padding-top: 100px;
+    padding-right: 20px;
+    .pd_detail {
+      display: flex;
+      margin-top: 20px;
+      height: auto;
+    }
+    .gr_detail{
+        display: flex;
+        width: auto;
+    }
+  }
+}

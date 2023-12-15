@@ -1,0 +1,34 @@
+.featured{
+    flex: 2;
+    background-color: #F2E9E9;
+    border-radius: 10px;
+    padding: 15px;
+    .tiendo{
+        margin-left: 130px;
+        p{
+            font-size: 20px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin: 0;
+            .dot{
+                
+                font-size: 40px;
+                margin-right: 20px;
+                &.done{
+                    color: #08D604;
+                }
+                &.can{
+                    color: #E70A0A;
+                }
+                &.sche{
+                    color: #264ECA;
+                }
+                &.pro{
+                    color: #FFE976;
+                }
+            }
+            
+        }
+    }
+}
